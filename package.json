@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "expo": "~45.0.0",
+    "expo-cli": "^5.5.1",
     "expo-status-bar": "~1.3.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -21,7 +22,11 @@
     "@babel/core": "^7.12.9",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.66.13",
-    "typescript": "~4.3.5"
+    "appium": "^1.22.3",
+    "appium-doctor": "^1.16.0",
+    "typescript": "~4.3.5",
+    "wd": "^1.14.0",
+    "webdriverio": "^7.20.7"
   },
   "private": true
 }

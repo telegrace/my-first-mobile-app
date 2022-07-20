@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useEffect } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { Button, StyleSheet, Text, View } from "react-native";
 import { useLogging } from "./src/hooks/useLogging";
 
 export default function App() {
@@ -13,6 +13,19 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Hello world!</Text>
+      <Button
+        onPress={() => {
+          alert("You tapped the button!");
+        }}
+        title="Press Me"
+      />
+
+      <Button
+        onPress={() => {
+          alert("AAAAA!");
+        }}
+        title="Don't press me"
+      />
       <StatusBar style="auto" />
     </View>
   );
@@ -21,7 +34,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "babyblue",
+    backgroundColor: "white",
+    color: "black",
     alignItems: "center",
     justifyContent: "center",
   },
