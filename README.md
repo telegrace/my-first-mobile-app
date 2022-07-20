@@ -10,6 +10,7 @@ yarn works too
 `yarn run appium-doctor`
 
 Install Java if needed, recommended (link)[https://www.linuxuprising.com/2021/09/how-to-install-oracle-java-17-lts-on.html]
+To get where Java is `java -XshowSettings:properties -version 2>&1 > /dev/null | grep 'java.home'`
 
 ### Install Android Studio
 
